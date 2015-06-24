@@ -1,0 +1,43 @@
+---
+---
+
+<html>
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta content="text/html; charset-utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>David Leger</title>
+  
+  <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+</head>
+<body>
+  
+  {% include header.html %}
+  {% include sidebar.html %}
+  
+  {% include work.html %}
+  {% include education.html %}
+  {% include skills.html %}
+  {% include contact.html %}
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+    
+    var topofDiv = $(".sidebar").offset().top; //gets offset of header
+    //var height = $("#header-container").outerHeight(); //gets height of header
+    $(window).scroll(function(){
+        if($(window).scrollTop() > topofDiv){
+           $(".sidebar").addClass("fixed");
+        }
+        else{
+           $(".sidebar").removeClass("fixed");
+        }
+    });
+  </script>
+  <!-- REMEMBER TO ADD ANALYTICS -->
+</body>
+</html>

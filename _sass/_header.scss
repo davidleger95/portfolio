@@ -1,0 +1,78 @@
+header{
+    height: 100%;
+    background: url(../img/header.png) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .top-nav{
+        float: right;
+        margin-right: 30px;
+        a{
+            display: inline-block;
+            margin-right: 20px;
+            margin-top: 30px;
+            
+            
+            font-weight: 700;
+            
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            
+            color: black;
+            opacity: 0.9;
+            //text-shadow: 2px 2px 0px black;
+            
+            &:hover{
+                opacity: 1;
+            }
+        }
+    }
+    
+    h1{
+        position: absolute;
+        //display: block;
+        color: white;
+        font-family: 'Lobster', cursive;
+        font-size: 96px;
+        text-align: center;
+        clear: both;
+        top: 20%;
+        left: 0;
+        right: 0;
+        margin-bottom: 150px;
+        color: black;
+    }
+    
+    .subtitle{
+        position: absolute;
+        top: 70%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+        letter-spacing: 0.1em;
+        //text-shadow: 5px 5px 5px black;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-transform: uppercase;
+        color: black;
+    }
+    
+    .accent-subtitle{
+        position: absolute;
+        top: 80%;
+        left: 0;
+        right: 0;
+        text-align: center;
+        
+        letter-spacing: 0.1em;
+        color: red;
+        //text-shadow: 2px 2px 0px black;
+        
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+}

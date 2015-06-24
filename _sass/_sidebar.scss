@@ -1,0 +1,74 @@
+aside{
+    float: left;
+    background: black;
+    max-width: 220px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    .face{
+        display: inline-block;
+        margin-top: 20px;
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+    }
+    
+    h2{
+        font-family: 'Lobster' cursive;
+        font-weight: 300;
+        font-size: 30px;
+        letter-spacing: 0.05em;
+    }
+    
+    .breaker{
+        display: inline-block;
+        background: white;
+        
+        height: 2px;
+        width: 150px;
+        
+    }
+    
+    .side-nav{
+        margin-top: 50px;
+        box-shadow: 5px 0px 15px 5px rgba(0, 0, 0, 0.5);
+        a{
+            padding: 10px 0px 10px 10px;
+            display: block;
+            //height: 50px;
+            font-size: 24px;
+            color: white;
+            text-align: left;
+            //text-transform: uppercase;
+            font-variant: small-caps;
+            width: calc(100% + 5px);
+            
+            &:hover{
+                margin-left: 10px;
+            }
+        }
+        .work{
+            background: $salmon;
+        }
+        .education{
+            background: $blue;
+        }
+        .skills{
+            background: $green;
+        }
+        .contact{
+            background: $orange;
+        }
+    }
+    
+    .copyright{
+        padding: 10px;
+        overflow-y: auto;
+    }
+}
+
+.fixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+}

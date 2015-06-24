@@ -1,0 +1,70 @@
+section.work{
+    h2{
+        color: $salmon;
+    }
+    
+    span{
+        background: $salmon;
+    }
+    
+    h4{
+        color: $salmon;
+    }
+}
+
+section.education{
+    h2{
+        color: $blue;
+    }
+    
+    span{
+        background: $blue;
+    }
+    
+    h4{
+        color: $blue;
+    }
+}
+
+section.skills{
+    h2{
+        color: $green;
+    }
+    
+    span{
+        background: $green;
+    }
+    
+    h4{
+        color: $green;
+    }
+}
+
+section.contact{
+    
+    clear: both;
+    h1{
+        clear: both;
+    }
+    h2{
+        color: $orange;
+    }
+    
+    span{
+        background: $orange;
+    }
+    
+    h4{
+        color: $orange;
+    }
+    .msg{
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .email{
+        font-size: 48px;
+        font-weight: 300;
+        padding-bottom: 200px;
+        display: inline;
+    }
+}
